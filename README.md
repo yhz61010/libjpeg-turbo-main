@@ -8,7 +8,7 @@ Download `libjpeg-turbo` sources or use the downloaded sources `libjpeg-turbo-ma
 (This is the original official version just excludes `.git` and `.github` folder. Downloaded date: 2022/03/25)
 
 ```
-$ cd /Users/yhz61010/AndroidStudioProjects/LeoAndroidBaseUtilProject-Kotlin/libjpeg-turbo-main
+$ cd /Users/yhz61010/AndroidStudioProjects/LeoAndroidDemo/libjpeg-turbo-main
 $ mkdir source
 $ cd source
 $ git clone https://github.com/libjpeg-turbo/libjpeg-turbo.git .
@@ -19,6 +19,6 @@ $ tar xvzf ../libjpeg-turbo-main-20220325.tar.gz --strip-components 1
 ### Compile
 Run the following command:
 ```shell
-$ cd /Users/yhz61010/AndroidStudioProjects/LeoAndroidBaseUtilProject-Kotlin/libjpeg-turbo-main/
+$ cd /Users/yhz61010/AndroidStudioProjects/LeoAndroidDemo/libjpeg-turbo-main/
 $ sh 00_build_jpeg_all.sh
 ```
